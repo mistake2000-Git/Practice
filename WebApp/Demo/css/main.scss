@@ -42,8 +42,6 @@ section {
 }
 .hero {
   text-align: center;
-  img {
-  }
 }
 .left-col {
   .subhead {
@@ -68,6 +66,56 @@ section {
   }
   .watch-cta {
     display: block;
-    margin-top: 1em;
+    margin-top: 2em;
+  }
+}
+.hero-img {
+  margin-top: 3em;
+  width: 70%;
+}
+.feature-section {
+  background: #20272e;
+  color: white;
+}
+ul.feature-list {
+  li {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    position: relative;
+    &:before {
+      content: " ";
+      left: -2em;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-image: url("../Image/bullet.svg");
+      background-size: contain;
+      margin-right: 0.5em;
+    }
+  }
+}
+.feature-section {
+  img {
+    display: none;
+  }
+}
+.testimonials-section {
+  background: var(--primary-color);
+  
+
+  .list {
+    background: #006BD6;
+    text-align: center;
+    padding: 2em 1em;
+    width: 80%;
+    margin: 0 auto 5em auto;
+    border-radius: 1em;
+
+    img{
+      width: 5em;
+      height: 5em;
+      text-align: center;
+    }
   }
 }
